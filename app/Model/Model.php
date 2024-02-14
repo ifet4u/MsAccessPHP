@@ -3,13 +3,7 @@
 
 class Model
 {
-	use DB ;
-	
-		
-}
 
-trait DB
-{
 	public function connect()
 	{
 		try {
@@ -103,3 +97,6 @@ trait DB
 	    }
 	}
 }
+	
+		
+

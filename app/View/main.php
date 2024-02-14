@@ -16,25 +16,10 @@
 			<nav class="breadcrumb" aria-label="breadcrumbs">
 				<ul>
 					<li class="is-active"><a href="/" aria-current="page">Home</a></li>
-					<li ><a href="/home/users" >Users</a></li>
+					<li ><a href="/home/artikli" >Artikli</a></li>
 				</ul>
 			</nav>
-			<p>
-				Simple MVC starting point for small PHP projects
-
-				If you are learning or familliar with PHP and MVC architecture, this is a good starting point for smaller projects. There are few things to know:<br>
-				<ul>
-					<li>&bull; You can run this App from any web server that supports PHP 8</li>
-					<li>&bull; I have uploaded examples for Model, View and Controller</li>
-					<li>&bull; Classes from Controller and Model folders are loaded automatically</li>
-				</ul>
-			</p>
-			<p>
-				Check sample of <code>dd()</code> function <a href="/home/debug">here</a>
-			</p>
-			<a href="https://www.youtube.com/user/SuperSimpleSongs" target="_blank">
-				<img src="src/img/banner.jpg">
-			</a>
+			
 			
 		</div>
 </section>

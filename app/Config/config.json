@@ -1,5 +1,5 @@
 {
-    "DIR": "c:\\Ansoft\\BoRestoran",
+    "PATH": "app/DB/Backansoft.mdb",
     "DRIVER": "Microsoft Access Driver (*.mdb, *.accdb)",
     "PASS": ""
 }

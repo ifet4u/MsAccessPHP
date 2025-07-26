@@ -40,11 +40,11 @@ MsAccessPHP/
 
 ## 🔌 Access Database Connection Example
 
-Defined in `config.php`:
+Defined in `config.json`:
 
-```php
-return [
-    "connection" => [
-        "mdb" => "C:\\path\\to\\your\\database.mdb"
-    ]
-];
+```json
+{
+    "PATH": "app/DB/Backansoft.mdb",
+    "DRIVER": "Microsoft Access Driver (*.mdb, *.accdb)",
+    "PASS": ""
+}

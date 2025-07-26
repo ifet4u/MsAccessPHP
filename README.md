@@ -33,7 +33,9 @@ MsAccessPHP/
 
 1. Run `start.cmd` on a Windows machine.
 2. Make sure you have a local web server (e.g., XAMPP or WAMP) with ODBC support.
-3. Open your browser and go to `http://localhost`.
+3. Open your browser and go to `http://localhost:9090`.
+
+Or copy files on toor of your webserver and use http://localhost
 
 ## 🧰 Tech Stack
 

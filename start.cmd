@@ -1,2 +1,2 @@
-php -S localhost:9090 -t C:\WEB\MVCPHP\MsAccessPHP\public
+php -S localhost:9090 -t ./public
 

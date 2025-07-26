@@ -1,7 +1,5 @@
 # MsAccessPHP
 
-# MsAccessPHP
-
 🛠️ A small hobby project for reading data from a Microsoft Access database using PHP.  
 📚 The purpose of this project is educational — to experiment with Access, ODBC, and PHP basics.  
 🚀 It is open for improvements, extensions, and learning opportunities.

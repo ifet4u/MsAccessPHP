@@ -7,20 +7,21 @@
 MsAccessPHP/
 │
 ├── app/
-│ ├── autoload.php # Autoloads necessary classes
-│ ├── Config/
-│ │ ├── config.php # Main PHP configuration for database path
-│ │ ├── config.json # JSON version of configuration
-│ │ └── Helpers/
-│ │ └── helper.php # Utility functions
-│ ├── Controller/
-│ │ ├── App.php # Base controller
-│ │ └── Home.php # Main logic for accessing the database
-│ └── DB/
-│ └── Backansoft.ldb # Sample or lock file from Access DB
+│   ├── autoload.php
+│   ├── Config/
+│   │   ├── config.php
+│   │   ├── config.json
+│   │   └── Helpers/
+│   │       └── helper.php
+│   ├── Controller/
+│   │   ├── App.php
+│   │   └── Home.php
+│   └── DB/
+│       └── Backansoft.ldb
 │
-├── start.cmd # CMD script to launch the project on Windows
-└── README.md # This documentation file
+├── start.cmd
+└── README.md
+
 
 
 ## 🚀 How to Run

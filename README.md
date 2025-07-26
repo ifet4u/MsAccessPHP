@@ -1,5 +1,10 @@
 # MsAccessPHP
 
+<p align="center">
+  <img src="https://i.ibb.co/ym3Wfvdr/MSaccessphp.png" alt="MSaccessphp" />
+</p>
+
+
 🛠️ A small hobby project for reading data from a Microsoft Access database using PHP.  
 📚 The purpose of this project is educational — to experiment with Access, ODBC, and PHP basics.  
 🚀 It is open for improvements, extensions, and learning opportunities.

@@ -1,5 +1,5 @@
 {
-    "PATH": "app/DB/Backansoft.mdb",
+    "PATH": "c://APP//Datatbase.mdb",
     "DRIVER": "Microsoft Access Driver (*.mdb, *.accdb)",
     "PASS": ""
 }

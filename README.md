@@ -1,4 +1,4 @@
-# MsAccessPHP
+# Microsoft Access PHP API
 
 <p align="center">
   <img src="https://i.ibb.co/ym3Wfvdr/MSaccessphp.png" alt="MSaccessphp" />

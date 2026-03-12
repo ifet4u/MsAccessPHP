@@ -5,12 +5,12 @@
 </p>
 
 
-🛠️ A small hobby project for reading data from a Microsoft Access database using PHP.  
-📚 The purpose of this project is educational — to experiment with Access, ODBC, and PHP basics.  
-🚀 It is open for improvements, extensions, and learning opportunities.
+A small hobby project for reading data from a Microsoft Access database using PHP.  
+The purpose of this project is educational — to experiment with Access, ODBC, and PHP basics.  
+It is open for improvements, extensions, and learning opportunities.
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```plaintext
 MsAccessPHP/
@@ -34,7 +34,7 @@ MsAccessPHP/
 
 
 
-## 🚀 How to Run
+## How to Run
 
 1. Run `start.cmd` on a Windows machine.
 2. Make sure you have a local web server (e.g., XAMPP or WAMP) with ODBC support.
@@ -42,13 +42,13 @@ MsAccessPHP/
 
 Or copy files on toor of your webserver and use http://localhost
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - PHP (simple procedural/OOP hybrid)
 - ODBC connection to Microsoft Access `.mdb` file
 - Local Windows CMD script for easy start
 
-## 🔌 Access Database Connection Example
+## Access Database Connection Example
 
 Defined in `config.json`:
 
@@ -59,29 +59,29 @@ Defined in `config.json`:
     "PASS": ""
 }
 ```
-## 🔧 Model Class – Database Helper Methods
+## Model Class – Database Helper Methods
 
 The `Model` class provides easy-to-use methods for interacting with a Microsoft Access database via ODBC and PDO.
 
-### 🧩 Available Methods
+### Available Methods
 
 ---
 
-#### 📄 `all($sql)`
+#### `all($sql)`
 Runs a SQL query and returns all rows as an associative array.
 
 ```php
 $model->all("SELECT * FROM Users");
 
 ```
-#### 📄 `first($sql)`
+#### `first($sql)`
 Runs a SQL query and returns all rows as an associative array.
 
 ```php
 $user = $model->first("SELECT * FROM Settings where user_id = 115);
 
 ```
-#### 📄 `insert($table,$data)`
+#### `insert($table,$data)`
 Inserts a new record into the specified table.
 $data is an associative array where keys match column names.
 
@@ -94,7 +94,7 @@ $model->insert("Users", [
 ]);
 
 ```
-#### 📄 `edit($table, $data, $where)`
+#### `edit($table, $data, $where)`
 $data is an associative array of fields to update.
 $where is a raw SQL condition (e.g. "id = 5").
 
@@ -107,7 +107,7 @@ $model->edit("Users", [
 
 ```
 
-#### 📄 `delete($table,$where)`
+#### `delete($table,$where)`
 Deletes rows from the table based on the given condition.ative array.
 
 ```php
@@ -116,7 +116,7 @@ $model->delete("Users", "id = 3");
 ```
 These methods offer a lightweight abstraction over common SQL operations for Access databases via ODBC in PHP.
 
-## 🧩 Utility Functions
+## Utility Functions
 
 The project provides a few handy helper functions defined in `fn.php`:
 

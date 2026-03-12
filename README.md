@@ -40,7 +40,7 @@ MsAccessPHP/
 2. Make sure you have a local web server (e.g., XAMPP or WAMP) with ODBC support.
 3. Open your browser and go to `http://localhost:9090`.
 
-Or copy files on toor of your webserver and use http://localhost
+Or copy files on root of your webserver and use http://localhost
 
 ## Tech Stack
 
